@@ -3,10 +3,10 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    
+
 }
 
-*{
+* {
     margin: 0px;
     color: #3A3A3A;
 }
@@ -23,10 +23,10 @@ navigation section style
 }
 
 .nav-title {
-    width: 243px;
-    height: 52.2px;
-    font-size: 24px;
-    
+    width: 353px;
+    height: 62.2px;
+    font-size: 28px;
+
 }
 
 
@@ -34,10 +34,10 @@ navigation section style
     list-style: none;
     display: inline;
     display: grid;
-    grid-template-columns: repeat(4, 80px) 30px 30px;
+    grid-template-columns: repeat(4, 90px) 44px 44px;
     column-gap: 10px;
-    height: 34.8px;
-    font-size: 16px;
+    height: 44.8px;
+    font-size: 20px;
 
 }
 
@@ -109,64 +109,142 @@ Popular products section styless */
     text-align: center;
     margin-bottom: 30px;
 }
-.products{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-margin: 0px 440px;
-row-gap: 20px;
-column-gap: 20px;
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 300px;
+    row-gap: 20px;
+    column-gap: 20px;
 
 
 }
-.product{
+
+.product {
     background-color: #FFF;
     border: 1px solid lightgrey;
-    box-shadow: grey;
-    width: 328px;
-    height:522px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px grey;
+    
+    width: 408px;
+    height: 600px;
+}
+
+.fa-star.filled {
+    color: orange;
 }
 
 .product-img {
-    width: 300px;
-    height: 256px;
+    width: 380px;
+    height: 286px;
     border-radius: 5px;
     padding: 16px 14px;
-  
+
 }
-.product-name{
+
+.product-name {
     font-size: 28px;
     padding: 16px 14px 6px 14px;
     color: black;
-  
+
 }
-.product-price{
+
+.product-price {
     font-size: 24px;
     padding: 6px 14px 6px 14px;
-   
+
 }
-.product-rating{
+
+.product-rating {
     display: flex;
     gap: 10px;
     font-size: 14px;
     padding: 5px 14px 5px 14px;
-   
+
 }
+
 .product-status {
     height: 40px;
     width: 196px;
     font-size: 14px;
     padding: 5px 14px 5px 14px;
-    
+
 }
-.product-description{
+
+.product-description {
     height: 100px;
     width: 200px;
     font-size: 14px;
     padding: 0px 14px 16px 14px;
 }
-.btn-see-more{
-    width: 100px;
-    height: 24px;
-    color:#E02C6DDE;
+
+.btn-see-more {
+    width: 150px;
+    height: 34px;
+    background-color: #E02C6D;
+    border: none;
+    color: #FFF;
+    position: relative;
+    left: 1440px;
+    top: 50px;
+    border-radius: 10px;
+
+}
+
+/* --------featured products section style */
+
+.Featured-products {
+
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin: 0px 200px 0px 140px;
+
+}
+.Featured-products-img {
+    width: 480px;
+    height: 280px;
+    border: 1px solid #F1E4FF;
+    border-radius: 7px;
+    margin-top: 185px;
+}
+
+.Featured-products-title {
+    font-size: 38px;
    
+    margin-top: 185px;
+}
+
+.Featured-products-description {
+    font-size: 16px;
+    width: 505px;
+    height: 61px;
+    padding: 16px 0px;
+}
+
+
+
+.btn-join-now {
+    background-color: #E02C6D;
+    color: #fff;
+    border: none;
+    width: 160px;
+    height: 50px;
+    border-radius: 15PX;
+    padding: 10px 24px;
+    margin: 16px 0px;
+}
+/* footer section style */
+footer .footer{
+    background-color: #0A0826;
+    
+    text-align: center;
+    height: 250px;
+}
+.footer-title{
+padding-top: 50px;
+color: #FFFFFF;
+}
+.footer-copyright{
+    color: #FFFFFF;
 }
