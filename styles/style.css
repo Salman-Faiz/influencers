@@ -1,0 +1,44 @@
+/* <!-- google font poppins ------------->  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins ,sans-serif;
+}
+
+/* ------------------
+navigation section style
+---------------------- */
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 120px;
+
+}
+
+.nav-title {
+    width: 243px;
+    height: 52.2px;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+
+.nav-item {
+    list-style: none;
+    display: inline;
+    display: grid;
+    grid-template-columns: repeat(6,80px);
+    column-gap: 10px;
+    height: 34.8px;
+    font-size: 16px;
+    color: #3A3A3A;
+  
+}
+.btn-prebook{
+    background-color: #E02C6D;
+    color: #fff;
+    border: none;
+    border-radius: 10PX;
+    padding: 10px 24px;
+}
