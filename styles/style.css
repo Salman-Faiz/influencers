@@ -1,18 +1,24 @@
 /* <!-- google font poppins ------------->  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    font-family: Poppins ,sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+
+*{
+    margin: 0px;
+    color: #3A3A3A;
 }
 
 /* ------------------
 navigation section style
 ---------------------- */
-.nav-container{
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 120px;
+    margin: 96px 140px 0px 140px;
 
 }
 
@@ -20,7 +26,7 @@ navigation section style
     width: 243px;
     height: 52.2px;
     font-size: 24px;
-    color: #3A3A3A;
+    
 }
 
 
@@ -28,17 +34,139 @@ navigation section style
     list-style: none;
     display: inline;
     display: grid;
-    grid-template-columns: repeat(6,80px);
+    grid-template-columns: repeat(4, 80px) 30px 30px;
     column-gap: 10px;
     height: 34.8px;
     font-size: 16px;
-    color: #3A3A3A;
-  
+
 }
-.btn-prebook{
+
+
+/* heading section with main camera--------
+-------------------------------------- */
+.heading {
+
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0px 200px 0px 140px;
+
+}
+
+.heading-title {
+    font-size: 52px;
+    width: 582px;
+    height: 133px;
+    margin-top: 285px;
+}
+
+.heading-description {
+    font-size: 16px;
+    width: 505px;
+    height: 61px;
+    padding: 16px 0px;
+}
+
+.heading-img {
+    width: 440px;
+    height: 414px;
+    border: 1px solid #F1E4FF;
+    border-radius: 440px;
+    margin-top: 185px;
+}
+
+.btn-prebook {
     background-color: #E02C6D;
     color: #fff;
     border: none;
-    border-radius: 10PX;
+    width: 150px;
+    height: 40px;
+    border-radius: 15PX;
     padding: 10px 24px;
+}
+
+/* online shop style-------------------- */
+
+.shoplist {
+    list-style: none;
+    display: inline;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    margin: 70px 200px;
+    column-gap: 60.32px;
+    border-top: 1px solid #C0CCDA99;
+    border-bottom: 1px solid #C0CCDA99;
+    padding: 40px 0px;
+}
+
+/* -----------------------------*
+-------------------------
+Popular products section styless */
+
+.Popular-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.products{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin: 0px 440px;
+row-gap: 20px;
+column-gap: 20px;
+
+
+}
+.product{
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    box-shadow: grey;
+    width: 328px;
+    height:522px;
+}
+
+.product-img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    padding: 16px 14px;
+  
+}
+.product-name{
+    font-size: 28px;
+    padding: 16px 14px 6px 14px;
+    color: black;
+  
+}
+.product-price{
+    font-size: 24px;
+    padding: 6px 14px 6px 14px;
+   
+}
+.product-rating{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    padding: 5px 14px 5px 14px;
+   
+}
+.product-status {
+    height: 40px;
+    width: 196px;
+    font-size: 14px;
+    padding: 5px 14px 5px 14px;
+    
+}
+.product-description{
+    height: 100px;
+    width: 200px;
+    font-size: 14px;
+    padding: 0px 14px 16px 14px;
+}
+.btn-see-more{
+    width: 100px;
+    height: 24px;
+    color:#E02C6DDE;
+   
 }
