@@ -23,8 +23,8 @@ navigation section style
 }
 
 .nav-title {
-    width: 353px;
-    height: 62.2px;
+   
+    height: 32.2px;
     font-size: 28px;
 
 }
@@ -47,7 +47,7 @@ navigation section style
 .heading {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 1;
     margin: 0px 200px 0px 140px;
 
@@ -184,8 +184,9 @@ Popular products section styless */
     background-color: #E02C6D;
     border: none;
     color: #FFF;
+    font-size: 20px;
     position: relative;
-    left: 1440px;
+    left: 1420px;
     top: 50px;
     border-radius: 10px;
 
@@ -205,8 +206,9 @@ Popular products section styless */
     width: 480px;
     height: 280px;
     border: 1px solid #F1E4FF;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-top: 185px;
+    margin-bottom: 100px;
 }
 
 .Featured-products-title {
@@ -233,6 +235,8 @@ Popular products section styless */
     border-radius: 15PX;
     padding: 10px 24px;
     margin: 16px 0px;
+    font-size: 20px;
+    
 }
 /* footer section style */
 footer .footer{
